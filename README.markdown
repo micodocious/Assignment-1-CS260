@@ -9,8 +9,14 @@ Mico Santiago
 ## Behaviors (methods)
     -count how many marbles in Bag
     -display the marbles in bag
+    
+    These features are combined:
     -insert a colored marble in bag
-    -remove a marble (removes a random marble)
+    -remove a marble 
 
 ### What represents a bag? 
-A marble will be represented by a color so, 
+We will be using an array to represent the bag, it will contain 4 elements
+0 - blue 
+1 - yellow
+3 - red
+4 - green
