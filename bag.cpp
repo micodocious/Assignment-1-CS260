@@ -16,12 +16,13 @@ int main(int argc, char** argv)
     const int MARBLE_COLOR = 4;
 
                                                                                     
-    int my_colors [MARBLE_COLOR] = { 0, 1, 2, 3};                                           //Array of 5 integers, initialized using a const, this is our bag
+    int my_colors [MARBLE_COLOR] = { 0, 1, 2, 3};                                               //Array of 5 integers, initialized using a const, this is our bag
 
     cout << "0- Blue    |" << endl;                                                              //Straight forward, giving a really simple menu
     cout << "1- Yellow  |" << endl;
     cout << "2- Red     |" << endl;
     cout << "3- Green   |" << endl;
+
     cout << "Enter the color of the marble that needs to be changed: "; 
     int element_index = 0;
     cin >> element_index;
